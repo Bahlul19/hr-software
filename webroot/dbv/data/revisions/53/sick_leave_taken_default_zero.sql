@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` CHANGE `sick_leave_taken` `sick_leave_taken` FLOAT NULL DEFAULT '0';

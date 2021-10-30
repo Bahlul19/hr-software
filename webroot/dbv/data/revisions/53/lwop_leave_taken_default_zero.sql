@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` CHANGE `lwop_leave_taken` `lwop_leave_taken` FLOAT NULL DEFAULT '0';

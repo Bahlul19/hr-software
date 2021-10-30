@@ -1,0 +1,1 @@
+ALTER TABLE `employees` ADD `profile_pic` TEXT NOT NULL AFTER `modified`;

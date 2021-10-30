@@ -1,0 +1,1 @@
+ALTER TABLE `leave_days` ADD `restricted_leave` FLOAT NOT NULL AFTER `unplanned_leave`, ADD `day_off` FLOAT NOT NULL AFTER `restricted_leave`;

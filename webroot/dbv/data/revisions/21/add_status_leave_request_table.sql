@@ -1,0 +1,1 @@
+ALTER TABLE `leave_requests` ADD `status` INT(5) NOT NULL DEFAULT '1' AFTER `reject_reason`;

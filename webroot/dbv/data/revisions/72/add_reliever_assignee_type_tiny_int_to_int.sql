@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` CHANGE `reliever_status` `reliever_status` VARCHAR(300) NOT NULL DEFAULT '0';

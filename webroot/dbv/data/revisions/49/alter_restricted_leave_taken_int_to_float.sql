@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` CHANGE `restricted_leave_taken` `restricted_leave_taken` FLOAT(5) NULL DEFAULT '0';

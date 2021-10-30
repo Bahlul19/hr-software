@@ -1,0 +1,1 @@
+ALTER TABLE `employees` ADD `birth_date2` DATE NULL AFTER `birth_date`;

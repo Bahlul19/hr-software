@@ -1,0 +1,1 @@
+ALTER TABLE `password_retrieve` CHANGE `token` `sec_token` VARCHAR(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL;

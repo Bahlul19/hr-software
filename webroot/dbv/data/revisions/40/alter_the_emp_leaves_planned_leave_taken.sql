@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` CHANGE `planned_leave_taken` `planned_leave_taken` INT(5) NOT NULL DEFAULT '0';

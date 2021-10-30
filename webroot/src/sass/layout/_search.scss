@@ -1,0 +1,19 @@
+.input-group-addon {
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: $trout;
+    text-align: center;
+    background-color: $search-bg;
+    border: 1px solid $search-border;
+    @include border-radius(.25rem);
+    display: flex;
+    align-items: center;
+}
+.input-group-addon:not(:last-child) {
+    border-right: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}

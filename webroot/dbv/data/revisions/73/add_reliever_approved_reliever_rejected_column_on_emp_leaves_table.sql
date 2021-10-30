@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` ADD `reliever_approved` VARCHAR(255) NOT NULL DEFAULT '0' AFTER `reliever_status`, ADD `reliever_rejected` VARCHAR(255) NOT NULL DEFAULT '0' AFTER `reliever_approved`;

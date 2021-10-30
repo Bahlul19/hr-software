@@ -1,0 +1,1 @@
+ALTER TABLE `announcements` ADD `end_date` DATE NULL DEFAULT NULL AFTER `start_date`;

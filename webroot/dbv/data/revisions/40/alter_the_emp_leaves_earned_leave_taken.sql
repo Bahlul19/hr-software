@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` CHANGE `earned_leave_taken` `earned_leave_taken` INT(5) NOT NULL DEFAULT '0';

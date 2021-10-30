@@ -1,0 +1,1 @@
+$("document").ready(function(){function e(e){var t=e;$.ajax({method:"get",url:"<?php echo $this->Url->build( ['controller' => 'EmpLeaves','action' => 'index' ] ); ?>",data:{keyword:t},succcess:function(e){$("leave-request").html(e)}})}$("#search").keyup(function(){e($(this).val())})});

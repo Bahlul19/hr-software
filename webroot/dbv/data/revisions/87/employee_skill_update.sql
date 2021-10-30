@@ -1,0 +1,1 @@
+ALTER TABLE `employee_skills` CHANGE `status` `status` INT(11) NOT NULL DEFAULT '2' COMMENT '0-rejected,1-approved,2-pending';

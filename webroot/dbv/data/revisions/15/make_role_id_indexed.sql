@@ -1,0 +1,1 @@
+CREATE INDEX role_id ON employees (role_id);

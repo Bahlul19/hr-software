@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` ADD `reliever_status` TINYINT(2) NOT NULL DEFAULT '0' AFTER `emp_leave_cancellation`;

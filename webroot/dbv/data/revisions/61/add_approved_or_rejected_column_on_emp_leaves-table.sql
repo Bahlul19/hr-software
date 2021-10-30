@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` ADD `approved_or_rejected` DATETIME NULL DEFAULT NULL AFTER `reliever_status`;

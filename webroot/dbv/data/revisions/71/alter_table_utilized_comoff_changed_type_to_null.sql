@@ -1,0 +1,1 @@
+ALTER TABLE `utilize_comoffs` CHANGE `approved_by` `approved_by` VARCHAR(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NULL DEFAULT NULL;

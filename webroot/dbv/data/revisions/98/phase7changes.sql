@@ -1,0 +1,1 @@
+ALTER TABLE `policies` CHANGE `updated_by` `updated_by` VARCHAR(100) CHARACTER SET utf8 COLLATE utf8_bin NULL DEFAULT NULL;

@@ -1,0 +1,1 @@
+ALTER TABLE `comp_off` ADD `status` INT NOT NULL DEFAULT '0' AFTER `type_of_project`;

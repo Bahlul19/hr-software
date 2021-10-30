@@ -1,0 +1,1 @@
+ALTER TABLE `comp_off` ADD `pm_id` INT(16) NOT NULL AFTER `date`, ADD INDEX (`pm_id`);

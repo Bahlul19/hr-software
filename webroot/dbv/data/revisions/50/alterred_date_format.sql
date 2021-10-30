@@ -1,0 +1,1 @@
+ALTER TABLE `comp_off` CHANGE `date` `date` DATE NOT NULL;

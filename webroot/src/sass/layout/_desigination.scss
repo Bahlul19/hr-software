@@ -1,0 +1,67 @@
+.designation {
+
+    .card-outline-info {
+      top: 20px;
+
+      .table {
+         td {
+            color: $black;
+         }
+      }
+
+      .control-label {
+          color: $black;
+       }
+
+       .form-group {
+         overflow: visible;
+         margin-bottom: 40px;
+
+         label {
+          font-weight: 500;
+        }
+       }
+
+       .form-actions {
+
+          .btn-inverse {
+            margin-left: 5px;
+          }
+       }
+    }
+
+    .remove-padding {
+      @extend %remove-padding;
+    }
+
+    .dataTables_wrapper .dataTables_paginate {
+      padding-top: 0px !important;
+    }
+
+    .icon-designation {
+
+      @include respond-to(tablets) {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+      } 
+
+       @include respond-to(handhelds) {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+      } 
+    }
+    
+}
+
+.dataTables_wrapper .dataTables_paginate {
+
+  @include respond-to(tablets) {
+    float: left !important;
+  }
+  
+  @include respond-to(handhelds) {
+    float: left !important;
+  }
+}

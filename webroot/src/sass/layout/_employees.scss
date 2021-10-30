@@ -1,0 +1,70 @@
+.employees {
+
+    .form-actions{
+           padding-top : 25px;
+        }
+
+    .card-outline-info {
+        top: 20px;
+
+        .table {
+
+            td {
+               color: $black;
+            }
+
+            control-label{
+                color: $black;
+            }
+
+           .form-actions{
+                .btn-inverse{
+                    margin-left: 5px;
+                }
+            }
+         }
+
+        &.view {
+
+            .form-group {
+
+                label {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+    .remove-padding {
+        @include respond-to(tablets) {
+            padding-left: 0px !important;
+        }
+
+        @include respond-to(handhelds) {
+            padding-left: 0px !important;
+        }
+    }
+
+    .icon-designation {
+
+      @include respond-to(tablets) {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+      } 
+
+       @include respond-to(handhelds) {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+      } 
+    }
+
+}
+.current-designation{
+    display: inline-block;
+}
+.current-designation:before {
+    content:"• ";
+    font-weight: bold;
+}

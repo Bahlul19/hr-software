@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` CHANGE `casual_leave_taken` `casual_leave_taken` FLOAT(5) NULL DEFAULT '0';

@@ -1,0 +1,1 @@
+ALTER TABLE `comp_off` CHANGE `number_of_hours` `number_of_hours` FLOAT(16) NOT NULL DEFAULT '0';

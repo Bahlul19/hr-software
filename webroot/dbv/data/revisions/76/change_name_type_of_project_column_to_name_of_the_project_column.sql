@@ -1,0 +1,1 @@
+ALTER TABLE `comp_off` CHANGE `type_of_project` `name_of_the_project` VARCHAR(255) CHARACTER SET latin1 COLLATE latin1_swedish_ci NOT NULL;

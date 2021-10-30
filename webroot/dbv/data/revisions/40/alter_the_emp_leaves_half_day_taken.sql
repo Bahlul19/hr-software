@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` CHANGE `half_day_taken` `half_day_taken` INT(5) NOT NULL DEFAULT '0';

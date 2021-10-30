@@ -1,0 +1,1 @@
+ALTER TABLE `leave_requests` ADD `restricted_leave_taken` INT(20) NOT NULL AFTER `planned_leave_taken`, ADD `day_off_taken` INT(20) NOT NULL AFTER `restricted_leave_taken`;

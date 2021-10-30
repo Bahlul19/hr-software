@@ -1,0 +1,52 @@
+.department {
+
+    .card-outline-info {
+      top: 20px;
+
+      .table {
+         td {
+            color: $black;
+         }
+      }
+
+      .control-label {
+         color: $black;
+       }
+
+       .form-group {
+         overflow: visible;
+         margin-bottom: 40px;
+
+         label {
+          font-weight: 500;
+        }
+        
+       }
+
+       .form-actions {
+
+          .btn-inverse {
+            margin-left: 5px;
+          }
+       }
+    }
+
+    .remove-padding {
+      @extend %remove-padding;
+    }
+
+    .search {
+      padding-top: 25px !important;
+    }
+
+    .dept-icon {
+
+      @include respond-to(deptIcons) {
+        display: block !important;
+        margin-bottom: 5px !important;
+        text-align: center !important;
+      }
+
+    }
+    
+}

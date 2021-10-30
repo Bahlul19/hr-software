@@ -1,0 +1,1 @@
+ALTER TABLE `employees` ADD `is_manager` INT(11) NOT NULL DEFAULT '0' AFTER `role_id`;

@@ -1,0 +1,1 @@
+ALTER TABLE `leave_requests` CHANGE `no_of_days` `no_of_days` FLOAT(5) NOT NULL;

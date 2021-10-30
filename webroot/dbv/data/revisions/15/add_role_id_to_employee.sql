@@ -1,0 +1,1 @@
+ALTER TABLE `employees` ADD `role_id` INT(11) NULL DEFAULT NULL AFTER `knowledge`;

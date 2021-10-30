@@ -1,0 +1,1 @@
+ALTER TABLE `employee_attendance` ADD `less_hours` TIME NULL DEFAULT NULL AFTER `extra_hours`;

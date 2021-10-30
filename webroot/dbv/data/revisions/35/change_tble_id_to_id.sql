@@ -1,0 +1,1 @@
+ALTER TABLE `password_retrieve` CHANGE `tble_id` `id` INT(8) NOT NULL AUTO_INCREMENT;

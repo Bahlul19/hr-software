@@ -1,0 +1,28 @@
+.form-actions {
+	text-align: right !important;
+
+	@include respond-to(handhelds) {
+		text-align: left !important;
+	}
+}
+
+.btn-mobile {
+    @include respond-to(handhelds) {
+		margin-bottom: 10px !important;
+		width: 49% !important;
+	} 
+}
+
+#policy{
+	padding-top: 40px !important;
+}
+
+.search {
+	padding-top: 25px !important;
+	padding-bottom: 25px !important;
+}
+
+.no-padding {
+	@extend %remove-padding;
+}
+

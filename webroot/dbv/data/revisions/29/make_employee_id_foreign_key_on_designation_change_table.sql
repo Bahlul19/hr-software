@@ -1,0 +1,1 @@
+ALTER TABLE `designation_changes` ADD CONSTRAINT `designation_changes_ibfk_1` FOREIGN KEY (`employee_id`) REFERENCES `employees`(`id`) ON DELETE RESTRICT ON UPDATE RESTRICT;

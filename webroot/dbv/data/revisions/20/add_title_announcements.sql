@@ -1,0 +1,1 @@
+ALTER TABLE `leave_requests` ADD `earned_leave_taken` INT(20) NOT NULL AFTER `lwop_leave_taken`;

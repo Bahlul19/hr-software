@@ -1,0 +1,1 @@
+ALTER TABLE `employees` ADD `knowledge` TEXT NOT NULL AFTER `notes`, ADD `level` VARCHAR(20) NOT NULL AFTER `knowledge`;

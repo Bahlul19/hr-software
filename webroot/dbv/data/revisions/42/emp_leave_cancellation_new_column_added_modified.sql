@@ -1,0 +1,1 @@
+ALTER TABLE `emp_leaves` CHANGE `emp_leave_cancellation` `emp_leave_cancellation` TINYINT(2) NOT NULL DEFAULT '0';

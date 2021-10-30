@@ -1,0 +1,13 @@
+#policy {
+
+	padding-top: 0px !important;
+
+	.search {
+		padding: 20px 0px !important;
+	}
+
+	.no-padding {
+		@extend %remove-padding;
+	}
+
+}

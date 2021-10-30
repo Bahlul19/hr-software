@@ -1,0 +1,1 @@
+CREATE TABLE `sjconnect`.`comp_off` ( `id` INT(16) NOT NULL AUTO_INCREMENT , `name` VARCHAR(255) NOT NULL , `date` DATE NOT NULL , `number_of_hours` INT(16) NOT NULL , `pm_name` VARCHAR(255) NOT NULL , `team_name` VARCHAR(255) NOT NULL , `project_task_details` TEXT NOT NULL , `type_of_project` VARCHAR(255) NOT NULL , PRIMARY KEY (`id`)) ENGINE = MyISAM;

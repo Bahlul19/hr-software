@@ -1,0 +1,1 @@
+ALTER TABLE comp_off ENGINE = InnoDB;

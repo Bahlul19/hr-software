@@ -1,0 +1,1 @@
+ALTER TABLE `employees` ADD CONSTRAINT `employees_ibfk_3` FOREIGN KEY (`role_id`) REFERENCES `connectm_db`.`roles`(`id`) ON DELETE RESTRICT ON UPDATE RESTRICT;

@@ -1,0 +1,151 @@
+.datepicker { z-index: 999 !important;}
+
+.datatable td, .datatable th {
+    border: 1px solid #dee2e6 !important;
+}
+.approved,.approve,.edit{
+    color: green;
+    padding: 3px;
+    border: solid 1px green;
+    background-color: #d1d9e2;
+    display: inline-block;
+    margin: 5px;
+}
+.pending,.reject,.view{
+    color: blue;
+    padding: 3px;
+    border: solid 1px blue;
+    background-color: #d1d9e2;
+    display: inline-block;
+    margin: 5px;
+}
+.rejected,.delete{
+    color: red;
+    padding: 3px;
+    border: solid 1px red;
+    background-color: #d1d9e2;
+    display: inline-block;
+    margin: 5px;
+}
+
+.skill-notification {
+    margin: 8px 0px;
+    padding: 7px;
+    position: relative;
+    display: none;
+    border-radius: 2px;
+  }
+
+  .skill-notification .badge:hover {
+    background: white;
+    color: #f36363;
+  }
+
+  .skill-notification .badge {
+    padding: 5px 5px;
+    border-radius: 15%;
+    background: #f36363;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .skill-notification .tooltiptext {
+    visibility: hidden;
+
+    width: 200px;
+    top: 100%;
+    left: 5%;
+    margin-left: -81px;
+
+    background-color: white;
+    color: black;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .skill-notification:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .skill-notification .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+  }
+
+  .category-line {
+    background: #e6dede !important;
+    padding: 0px;
+}
+.skills-card-main {
+    margin: 5px;
+}
+.skills-body-main {
+    padding: 2px;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+.skills-list .card-body {
+    padding: 5px;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+.skills-card-main ol {
+    margin: 0px;
+    list-style: none;
+    counter-reset: li
+}
+
+.skills-card-main ol li{
+    color: #101010;
+    font-weight: 400;
+}
+.skills-card-main ol li::before {content: counter(li)". ";color: #a9a09b}
+.skills-card-main ol li {counter-increment: li}
+.category-line button.btn.btn-link {
+  color: black;
+}
+
+.category-line button.btn.btn-link:hover {
+  color: #094a9a;
+}
+.skills-card-main .card-outline-info .card-header {
+  background: #094a9a;
+  border-color: #094a9a;
+}
+li.select2-results__option .select2-results__group {
+    background-color: #334258;
+    color: white;
+    margin: 3px;
+}
+.buttons-skill button {
+    padding: 4px;
+    margin: 2px;
+}
+
+input,select{
+  cursor: pointer !important;
+}
+
+
+.sticky-tab{
+  position: relative;
+}
+
+.sticky{
+  background: white;
+  position: sticky;
+  top: 0; 
+}

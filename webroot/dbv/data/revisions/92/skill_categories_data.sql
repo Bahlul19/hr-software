@@ -1,0 +1,3 @@
+INSERT INTO `skill_categories` (`id`, `name`) VALUES (NULL, 'Frameworks / CMS'), (NULL, 'JS Libraries'), (NULL, 'Payment Gateways'), (NULL, 'Databases'), (NULL, 'Other Programming Languages'), (NULL, 'External API\'s'), (NULL, 'Mobile Technologies'), (NULL, 'Design Technologies'), (NULL, 'Front-end Technologies'), (NULL, 'AWS Skills');
+
+INSERT INTO `skill_categories` (`id`, `name`) VALUES (NULL, 'Soft Skills'), (NULL, 'Business Development'), (NULL, 'COO'), (NULL, 'Data'), (NULL, 'Finance'), (NULL, 'HR (Human Resources)'), (NULL, 'Manager'), (NULL, 'Marketing'), (NULL, 'Network Support/Server'), (NULL, 'Project Coordinator'), (NULL, 'Software testing (QA)'), (NULL, 'Team Lead'), (NULL, 'Tech Lead');

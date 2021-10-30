@@ -1,0 +1,1 @@
+ALTER TABLE `employees` ADD `knowledge` TEXT NOT NULL AFTER `role_id`;

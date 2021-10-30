@@ -1,0 +1,1 @@
+ALTER TABLE `approved_compoff` ADD FOREIGN KEY (`employee_id`) REFERENCES `employees`(`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;

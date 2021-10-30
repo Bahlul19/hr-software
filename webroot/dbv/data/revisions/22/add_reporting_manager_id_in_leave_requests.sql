@@ -1,0 +1,1 @@
+ALTER TABLE `leave_requests` ADD `reporting_managerId` INT(11) NULL DEFAULT NULL AFTER `employee_name`;

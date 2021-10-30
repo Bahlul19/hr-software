@@ -1,0 +1,1 @@
+ALTER TABLE `employees` CHANGE `nid_no` `bank_name` VARCHAR(150) NULL DEFAULT NULL;
